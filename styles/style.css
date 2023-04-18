@@ -1,0 +1,99 @@
+body{
+    background-image: url("https://img.freepik.com/vetores-gratis/fundo-de-tecnologia-de-padrao-geometrico-roxo-com-circulos_53876-116189.jpg?size=626&ext=jpg");
+    color: white;
+    background-size:100%;
+    font-family: tahoma;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 15px;     
+}
+
+header{    
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;  
+}
+
+#title{
+    flex-direction: column;
+    line-height: 10px;
+}
+
+li{
+   display: inline-block;
+   margin: 15px;  
+}
+
+a{
+    color: white;
+}
+
+a:hover{
+    color: rgb(230, 160, 233); 
+    transition: 0.4s all;
+}
+
+h1{
+    font-variant:small-caps;
+    font-style: italic; 
+    font-size: 45px;   
+         
+}
+
+main{  
+    display: flex;
+    flex-direction: row;
+    margin-top: 100px; 
+    justify-content: space-between;     
+}
+
+h2{
+    font-size: 50px;
+    line-height: 10px;
+    font-family: tahoma;   
+    color: rgb(225, 240, 97);        
+}
+
+h3{
+    font-size: 25px;
+    line-height: 25px;
+    font-family: tahoma; 
+    font-style: italic;     
+}
+
+p{
+    line-height: 20px;
+    max-width: 500px;
+    font-family: tahoma;
+}
+
+img{
+    max-width: 500px;   
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    width: 70%;  
+}
+
+form [type="submit"]{
+    height: 50px;
+    width: 35%;
+    background-color: rgb(91, 143, 43);
+    color: white;
+    font-weight: bold;     
+}
+form [type="submit"]:hover{
+    cursor: pointer;
+}
+
+input{
+    margin-top: 20px;
+    height: 20px;
+    padding: 15px;
+    border-radius: 20px;
+    border: none;
+    font-size: 15px;
+}
